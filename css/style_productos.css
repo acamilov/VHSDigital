@@ -1,0 +1,433 @@
+@charset "utf-8";
+/*Reset General*/
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	border-top:solid 5px #266bb8;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+	list-style: none; 
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+
+a img {
+	border: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover, 
+a:active, 
+a:focus,
+a:visited { 
+	text-decoration: none;
+}
+/*Fin Reset*/
+
+/*Container*/
+#container {
+	width: 960px;
+	margin:0 auto; 
+}
+/*Fin Container*/
+
+
+/*Header */
+.centrar {
+	width: 100%; 
+	margin:0 auto; 
+	overflow:auto; 
+	position:relative;
+}
+
+#header {
+	height: 186px;
+}
+#logo { 
+	float:left; 
+	height:171px; 
+	margin-top:10px;
+	width:292px; 
+	z-index: 3;
+	position: absolute;
+}
+#menu {
+	width: 67%; 
+	float: right;
+	position: relative;
+	z-index: 10;
+}
+#menu ul.menuPrincipal {
+	width: 100%; 
+	float: right; 
+	text-align:right; 
+	margin-top:35px; 
+	z-index:2;
+}
+
+#menu ul.menuPrincipal li { 
+	display: inline-block; 
+	margin:0 5px 0 0;
+	position: relative;
+}
+
+#menu a{ 
+	padding: 40px 20px 4px 20px;
+	font-size: 0.9em;
+}
+
+#menu a:link {
+	color: #42413C;
+}
+#menu a:visited {
+	color: #42413C;
+}
+#menu a:hover, 
+#menu a:active,
+#menu a:focus { 
+	background: #B82634;
+	text-decoration: none;
+	color: #FFF;
+}
+
+#nav ul{
+	background:#fff; 
+	background:rgba(255,255,255,0); 
+	list-style:none;
+	position:absolute;
+	left:-9999px;
+}
+
+#nav ul li{
+	padding-top:1px; 
+	float:none;
+}
+#nav ul a{
+	margin-top: 5px;
+	margin-left: 20px;
+	padding: 0px;
+	white-space: nowrap; 
+}
+#nav li:hover ul{
+	text-align: left;
+	left: 0; 
+}
+
+#nav li:hover a{
+	background: #B82634;
+	color: #FFF;
+}
+
+#nav li:hover ul a{
+	background: #FFF; 
+	color: #42413C;
+}
+#nav li:hover ul li a:hover{
+	background: #FFF;
+	color: #B82634;
+}
+
+#subtitles {
+	margin-top: 100px;
+}
+
+#subtitles h2 {
+	text-align: right;
+	color: #535353;
+	font-size: 1em;
+	margin-left: 600px;
+}
+
+#subtitles h2 span {
+	font-family: 'Magra', sans-serif;
+	font-weight: bold;
+	color: #8E8E8E;
+	font-size: 3em;
+	line-height: 40px;
+}
+/*Fin items header*/
+
+/*Contenido*/
+#contenidoAnt {
+
+}
+#submenu {
+	color: gray;
+	font-size: 12px;
+	margin-top: 20px;
+	z-index: 2;
+	position: absolute;
+}
+#submenu ul{
+	float: left;
+}
+#submenu ul li {
+	list-style: none;
+	float: left;
+	margin-right: 40px;
+}
+.present{
+	color: #CCCCCC;
+}
+#submenu a,
+#submenu a:hover, 
+#submenu a:active, 
+#submenu a:focus,
+#submenu a:visited{
+	color: gray;
+	text-decoration: none;
+}
+
+#producto {
+	margin-top: 20px;
+	float: left;
+	height: 1100px;
+}
+
+#nombreproducto h3 {
+	margin-top: 30px;
+	float: left;
+	position: absolute;
+	left: 0px;
+}
+#identidad {
+	float: left;
+
+}
+#identidad a, a:visited {text-decoration: none; color: black; font-style: normal;}
+#logomarca img {	
+	height: 150px;
+	left: 0px;
+	position: absolute;
+	z-index: -1;
+	margin: 20px auto;
+}
+#pdf {
+	position: absolute;
+	margin-top: 80px;
+	left: 170px;
+	z-index: 2;
+}
+#pdf img {
+	height: 60px;
+	position: absolute;
+	left: 100px;
+}
+
+#pdf p{
+	float: right;
+	text-align: right;
+	width: 250px;
+	top: 20px;
+	position: absolute;
+	font-size: 11px;
+}
+#imgproducto img {
+	position: absolute;
+	height: 300px;
+	left: 50px;
+	top: 170px;
+
+}
+
+#descripcion {
+	float: right;
+	right: 0px;
+	position: absolute;
+	top: 100px;
+	z-index: 2;
+}
+#descripcion p {
+	width: 450px;
+	float: right;
+	right: 0px;
+	text-align: justify;
+	font-size: 12px;
+}
+#descripcion iframe.special {
+	top: 100px;
+	float: right;
+	right: 10px;
+	position: absolute;
+	z-index: 2;
+}
+
+#ficha {
+	height: auto;
+	width: 80%;
+	position: absolute;
+	background-color: rgba(229,229,229,0.9);
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px; 
+	top: 600px;
+	left: 100px;
+	z-index: 2;
+}
+
+#ficha h1 {
+	color: #fff;
+	padding-left: 50px;
+	padding-top: 20px;
+	font-family: 'Magra', sans-serif;
+}
+
+#ficha p{
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#tabla {
+	width: 100%;
+	font-weight: bold;
+	font-size: 12px;
+	padding-left: 20px;
+
+}
+
+#tabla table {
+	margin: 0px auto 20px auto;
+}
+#tabla td {
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+#especificacion {
+	width: 80%;
+	font-size: 12px;
+	padding-left: 20px;
+	text-align: justify;
+	margin: 0px auto;
+
+}
+#especificacion ol {
+	padding-left: 40px;
+	text-align: justify;
+	list-style: decimal;
+}
+#footer {
+	width: 100%;
+	font-family: 'Magra', sans-serif;
+	height:146px;
+	background: #EEE url("../img/foto-footer.png") no-repeat;
+}
+
+#menuDatos {
+	width: 440px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto; 
+	margin-bottom: 10px;
+	margin-top: 20px;
+	
+}
+
+#menuDatos li {
+	list-style:none; 
+	display:inline-block; 
+	margin:0 20px;
+}
+
+#menuDatos ul{
+	list-style:none;
+	z-index:2;
+} 
+
+#menuDatos li {
+	font-size: .8em;
+	list-style:none; 
+	float: left; 
+	margin:20px 20px 0 5px;
+}
+
+
+#menuDatos  a{ 
+	color: #666;
+}
+
+#menuDatos a:hover, 
+#menuDatos a:active, 
+#menuDatos a:focus{
+	text-decoration: underline;
+}
+
+#menuDatos .redes a{
+	display: block;
+	margin-top: -10px;
+	width: 36px;
+	height: 36px;
+}
+
+#DatosEmpresa {
+
+	width: 370px;
+	height: 95px;
+	z-index: 4;
+	position: relative;
+	margin: 0 auto;
+}
+#logoFooter {
+	float: left;
+}
+
+#logoFooter img {
+	display: block;
+	margin-top: 25px;
+	height: 60px;
+	border-right: solid;
+	border-width: 1px;
+	border-color: black;
+}
+#contactFooter {
+
+	position: absolute;
+	margin-left: 140px;
+	margin-top: 20px;
+}
+#contactFooter p {
+	position: absolute;
+	color: #666;
+	font-size: 13px;
+	width: 250px;
+	margin-top: 5px;
+	
+}
+
+#creditos {
+	float: right;
+	position: absolute;
+
+	right: 0px;
+	margin-top: -49px;
+}
+
+#creditos p{
+	
+	color: #C3C4C6;
+	font-size: 13px;
+	
+}
+#creditos a{
+	background: url("../img/antorcha.png");
+	display: inline-block;	
+	line-height: 37px;
+	vertical-align: middle;
+	height: 37px;
+	width: 121px;
+}
+#fb img{
+	margin-top: -10px;
+}
+/*Fin items de contenido*/
+

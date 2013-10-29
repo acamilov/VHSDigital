@@ -1,0 +1,215 @@
+
+#capaPixels{
+	margin: 0 auto;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+
+}
+	
+	#containerPixel{
+		width: 100%;
+		height: 1000px;
+		margin: 0;
+		position: relative;
+		z-index: 1;
+
+
+	}
+
+/*Index*/
+
+		#pixelizq{
+			left: 100px;
+			top: 700px;
+			opacity: 0.5;
+		}
+		#containerPixel:hover #pixelizq{
+			left: 120px;
+			top: 500px;
+			opacity: 0.8;
+		}
+
+
+		#pixelder1{
+			left: 700px;
+			top: 100px;
+			opacity: 0.3;
+		}
+		#containerPixel:hover #pixelder1{
+			left: 850px;
+			top: 150px;
+			opacity: 0.7;
+		}
+		
+		
+
+		#pixelder2{
+			left: 800px;
+			top: 700px;
+			opacity: 0.4;
+		}
+		#containerPixel:hover #pixelder2{
+			left: 800px;
+			top: 660px;
+			opacity: 0.7;
+		}
+
+		#pixelder3{
+			left: 85%;
+			top: 1200px;
+			opacity: 0.4;
+			
+		}
+		#containerPixel:hover #pixelder3{
+			left: 85%;
+			top: 1300px;
+			opacity: 0.7;
+
+		}
+			#pixelder4{
+			left: 82%;
+			top: 1230px;
+			opacity: 0.5;
+			width: 50px;
+			height: 40px;
+			
+		}
+		#containerPixel:hover #pixelder4{
+			left: 82%;
+			top: 1300px;
+			opacity: 0.8;
+			width: 50px;
+			height: 40px;
+
+		}
+
+/*productos*/
+
+		#pixelizqP1{
+			left: 5%;
+			top: 1000px;
+			opacity: 0.5;
+		}
+		#containerPixel:hover #pixelizqP1{
+			left: 5%;
+			top: 500px;
+			opacity: 0.8;
+		}
+
+			#pixelizqP2{
+				left: 6%;
+				top: 1150px;
+				opacity: 0.3;
+			}
+			#containerPixel:hover #pixelizqP2{
+				left: 6%;
+				top: 600px;
+				opacity: 0.5;
+			}
+
+		
+		#pixelderP1{
+		left: 80%;
+		top: 700px;
+		opacity: 0.5;
+		}
+
+	#pixelcentro{
+		left: 70%;
+		top: 1500px;
+		opacity: 0.8;
+		}
+		#containerPixel:hover #pixelcentro{
+		left: 80%;
+		top: 1500px;
+		opacity: 0.9;
+		}
+		#pixelcentro2{
+		left: 65%;
+		top: 1550px;
+		opacity: 0.5;
+		}
+		#containerPixel:hover #pixelcentro2{
+		left: 75%;
+		top: 1550px;
+		opacity: 0.8;
+		}
+
+/*pixeles*/
+.pixel1{
+	background: url(../img/cuadros-capa.png);
+	background-size: 150px;
+	background-repeat: no-repeat;
+	height: 150px;
+	z-index: 99;
+	width: 150px;
+	position: absolute;
+	-webkit-transition: left 5s ease-out, top 10s ease-out;
+		-moz-transition: left 5s ease-out, top 10s ease-out;
+			-o-transition: left 5s ease-out, top 10s ease-out;
+				transition: left 5s ease-out, top 10s ease-out;
+}
+
+	.pixel1p{
+	background: url(../img/cuadros-capa.png);
+	background-size: 90px;
+	background-repeat: no-repeat;
+	height: 150px;
+	z-index: 99;
+	width: 150px;
+	position: absolute;
+	-webkit-transition: left 5s ease-out, top 10s ease-out;
+		-moz-transition: left 5s ease-out, top 10s ease-out;
+			-o-transition: left 5s ease-out, top 10s ease-out;
+				transition: left 5s ease-out, top 10s ease-out;
+}
+
+	.pixel1g{
+	background: url(../img/cuadros-capa.png);
+	background-size: 200px;
+	background-repeat: no-repeat;
+	height: 200px;
+	z-index: 99;
+	width: 200px;
+	top: 500px;
+	position: absolute;
+	-webkit-transition: left 5s ease-out, top 10s ease-out;
+		-moz-transition: left 5s ease-out, top 10s ease-out;
+			-o-transition: left 5s ease-out, top 10s ease-out;
+				transition: left 5s ease-out, top 10s ease-out;
+}
+.pixel2{
+	background: url(../img/cuadros-capa2.png);
+	background-size: 150px;
+	height: 150px;
+	z-index: 99;
+	width: 200px;
+	position: absolute;
+	-webkit-transition: left 5s ease-out, top 10s ease-out;
+		-moz-transition: left 5s ease-out, top 10s ease-out;
+			-o-transition: left 5s ease-out, top 10s ease-out;
+				transition: left 5s ease-out, top 10s ease-out;
+}
+
+.pixel3{
+	background: url(../img/cuadros-capa3.png);
+	background-size: 120px;
+	height: 100px;
+	z-index: 99;
+	width: 170px;
+	position: absolute;
+	-webkit-transition: left 5s ease-out, top 10s ease-out;
+		-moz-transition: left 5s ease-out, top 10s ease-out;
+			-o-transition: left 5s ease-out, top 10s ease-out;
+				transition: left 5s ease-out, top 10s ease-out;
+}
+
+.pixel3g{
+	background: url(../img/cuadros-capa3.png);
+	background-size: 200px;
+	height: 200px;
+	z-index: 99;
+	width: 200px;
+	position: absolute;
+	
