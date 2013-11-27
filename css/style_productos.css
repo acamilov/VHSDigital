@@ -268,8 +268,8 @@ a:visited {
 	width: 80%;
 	position: absolute;
 	background-color: rgba(229,229,229,0.9);
-	border-radius: 10px;
-	-moz-border-radius: 10px;
+			border-radius: 10px;
+	   -moz-border-radius: 10px;
 	-webkit-border-radius: 10px; 
 	top: 600px;
 	left: 100px;
