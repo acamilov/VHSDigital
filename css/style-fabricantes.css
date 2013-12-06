@@ -172,6 +172,14 @@ a:focus {
 	color: gray;
 	text-decoration: none;
 }
+
+#dcompania {
+	font-family: 'Magra', sans-serif;
+	margin-top: 25px;
+	position:relative;
+	height: auto;
+}
+
 #camino ul{
 	position: absolute;
 	z-index: 2;
