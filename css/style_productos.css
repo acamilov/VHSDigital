@@ -253,6 +253,7 @@ a:visited {
 	width: 450px;
 	float: right;
 	right: 0px;
+	position:absolute;
 	text-align: justify;
 	font-size: 13px;
 }
@@ -278,7 +279,7 @@ a:visited {
 }
 
 #ficha h1 {
-	color: #fff;
+	color: #555;
 	padding-left: 50px;
 	padding-top: 20px;
 	font-family: 'Magra', sans-serif;
