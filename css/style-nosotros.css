@@ -203,68 +203,51 @@ a:focus {
 	position: relative;
 } 
 
-#quienes h2,
-#nuestros h2 {
+h2 {
 	color: #535353;
 	font-size: 1em;
 	margin-left: 710px;
 }
 
-#quienes h2 span,
-#nuestros h2 span {
+h2 span {
 	font-family: 'Magra', sans-serif;
 	color: #8E8E8E;
 	font-size: 3em;
 	line-height: 40px;
 }
 
-#quienes p{
-	text-align: justify;
-	color: #FFF;
+#quienes article {
 	background: #CCC;
-	font-family: Calibri;
-	margin: 100px auto;
-	width: 65%;
-	font-size: 1.5em;
-	padding: 30px 40px;
 	border-radius: 10px;
+	color: #FFF;
+	margin: 30px auto;
+	padding: 30px 20px;
+	text-align: justify;
+	width: 85%;
 }
 
-#nuestros div.izquierda,
-#nuestros div.derecha {
-	height: 200px;
-	width: 800px;
-	position: relative;
-	margin: 0 auto;
+#quienes h3 {
+	font-family: 'Magra', sans-serif;
+	font-size: 1.8em;
+	color: #8E8E8E;
+	width: 56%;
 }
 
-#nuestros .izquierda div{
-	width: 400px;
-	float: left;
-}
-
-#nuestros .izquierda div p{
-	margin: 20px;
-}
-
-#nuestros .izquierda div h3,
-#nuestros .derecha div h3{
-	margin-right: 20px;
-}
-
-#nuestros .derecha div{
-	width: 400px;
-	float: right;
-}
-
-#nuestros .derecha div p{
-	margin: 20px;
-	text-align: right;
-}
-
-#nuestros img {
+#quienes img {
 	display: inline-block;
-	margin-left: 70px;
+	text-align: right;
+	margin-top:-20px;
+	vertical-align: middle;
+	width: 38%;
+}
+
+#quienes p {
+	display: inline-block;
+	font-family: Calibri;
+	font-size: 1.2em;
+	text-align: left;
+	vertical-align: top;
+	width: 56%;
 }
 
 /* Inicio Footer*/
