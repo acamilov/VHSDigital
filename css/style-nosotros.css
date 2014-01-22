@@ -236,7 +236,6 @@ h2 span {
 #quienes img {
 	display: inline-block;
 	text-align: right;
-	margin-top:-20px;
 	vertical-align: middle;
 	width: 38%;
 }
@@ -354,7 +353,7 @@ h2 span {
 	
 }
 #creditos a{
-	background: url("../img/antorcha.png");
+	background: url("../img/IO.png");
 	display: inline-block;	
 	line-height: 37px;
 	vertical-align: middle;

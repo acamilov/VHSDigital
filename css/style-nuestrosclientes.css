@@ -3,7 +3,6 @@
 body {
 	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
 	border-top:solid 5px #266bb8;
-	position: relative;
 }
 
 /* ~~ Element/tag selectors ~~ */
@@ -56,7 +55,7 @@ a:focus {
 /*Header */
 
 #header {
-	height: 191px;
+	height: 110px;
 }
 
 #logo { 
@@ -149,7 +148,7 @@ a:focus {
 #submenu {
 	color: gray;
 	font-size: 12px;
-	margin-top: 20px;
+	margin-top: 60px;
 	z-index: 2;
 	position: absolute;
 }
@@ -172,25 +171,19 @@ a:focus {
 	color: gray;
 	text-decoration: none;
 }
-
-#dcompania {
-	font-family: 'Magra', sans-serif;
-	margin-top: 25px;
-	position:relative;
-	height: auto;
+#camino {
+	
 }
-
 #camino ul{
+	top: 150px;
 	position: absolute;
-	z-index: 2;
 	text-align:left;  
-	top: 200px;
+	z-index:2;
 }
 
 #camino ul li {
-
 	display: inline-block; 
-	margin-right: 30px;
+	margin:0 5px 0 0;
 	color: gray;
 	font-size: .8em;
 }
@@ -203,59 +196,68 @@ a:focus {
 	text-decoration: underline;
 }
 
-#productos {
-	margin-top: -50px;
+#quienes {
+	margin-top: -25px;
 	width: 100%;
 	height: auto;
-	min-height: 550px;
 	position: relative;
 } 
 
-#productos h2 {
-	text-align: right;
+h2 {
 	color: #535353;
 	font-size: 1em;
-	margin-left: 650px;
-	margin-bottom: 0px;
+	margin-left: 710px;
 }
 
-#productos h2 span {
+h2 span {
 	font-family: 'Magra', sans-serif;
 	color: #8E8E8E;
 	font-size: 3em;
 	line-height: 40px;
 }
 
-#productos div.referencia {
-	width: 300px;
-	height: 275px;
-	float: left;
-	margin: 5px;
+#quienes article {
+	background: #CCC;
+	border-radius: 10px;
+	color: #FFF;
+	margin: 30px auto;
+	padding: 30px 20px;
+	text-align: justify;
+	width: 85%;
 }
 
-#productos div.referencia h3 {
-	margin-bottom: 5px;
-} 
+#quienes h3 {
+	font-family: 'Magra', sans-serif;
+	font-size: 1.8em;
+	color: #8E8E8E;
+	margin: 0px 0px 10px 5px;
+	padding: 0;
+	width: 56%;
+}
 
-#productos div.referencia div {
-	width: 292px;
-	height: 240px;
-	background: #FFF;
-	border: solid 4px #CCC; 
+#quienes img {
+	display: inline-block;
+	text-align: right;
+	vertical-align: middle;
+	width: 38%;
+}
+
+#quienes p {
+	display: inline-block;
+	font-family: Calibri;
+	font-size: 1.2em;
+	text-align: left;
+	vertical-align: top;
+	width: 56%;
 }
 
 /* Inicio Footer*/
-#espacio {
-	width: 100%;
-	height: 100px;
-}
-
-
 #footer {
 	width: 100%;
 	font-family: 'Magra', sans-serif;
 	height:146px;
 	background: #EEE url("../img/foto-footer.png") no-repeat;
+	margin-bottom: 0px;
 }
 
 #menuDatos {
@@ -263,8 +265,9 @@ a:focus {
 	height: 40px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
-	margin-bottom: 10px;	
+	margin-top:20px; 
+	margin-bottom: 10px;
+	
 }
 
 #menuDatos li {
@@ -341,7 +344,6 @@ a:focus {
 #creditos {
 	float: right;
 	position: absolute;
-	
 	right: 0px;
 	margin-top: -49px;
 }

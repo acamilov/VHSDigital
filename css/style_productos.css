@@ -237,8 +237,7 @@ a:visited {
 	position: absolute;
 	height: 300px;
 	left: 50px;
-	top: 170px;
-
+	top: 170px
 }
 
 #descripcion {
@@ -249,6 +248,7 @@ a:visited {
 	top: 100px;
 	z-index: 2;
 }
+
 #descripcion p {
 	width: 450px;
 	float: right;
@@ -257,6 +257,7 @@ a:visited {
 	text-align: justify;
 	font-size: 13px;
 }
+
 #descripcion iframe {
 	top: 100px;
 	float: right;
@@ -285,9 +286,11 @@ a:visited {
 	font-family: 'Magra', sans-serif;
 }
 
-#ficha p{
-	font-weight: bold;
-	font-size: 12px;
+#ficha p {
+	font-size: 13px;
+	padding-left: 50px;
+	position:absolute;
+	text-align: center;
 }
 
 #tabla {
@@ -421,7 +424,7 @@ a:visited {
 	
 }
 #creditos a{
-	background: url("../img/antorcha.png");
+	background: url("../img/IO.png");
 	display: inline-block;	
 	line-height: 37px;
 	vertical-align: middle;

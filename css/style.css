@@ -174,7 +174,7 @@ a:focus {
 	background-repeat:no-repeat;
 	background-position: 7px 0;
 	width:100%; 
-	height:327px;
+	height:227px;
 	margin-top:90px; 
 	position: absolute;
 	z-index: 2;
@@ -188,8 +188,8 @@ a:focus {
 
 #bannerPrincipal .circle {
 	background:url(../img/esfera-index.png); 
-	width:32%; 
-	height:327px; 
+	width:24%; 
+	height:227px; 
 	float:left;
     margin-top:90px; 
     margin-left:7px; 
@@ -197,31 +197,24 @@ a:focus {
 }
 
 #bannerPrincipal .circle a {
-	font-family: 'Magra', sans-serif;
 	color:#FFF; 
-	margin-top:135px; 
-	margin-left:45px; 
+	display: block;
+	font-family: 'Magra', sans-serif;
+	margin-top:105px; 
+	margin-left:25px; 
 	position:absolute;
 	z-index: 3;
 }
 
 #bannerPrincipal .circle a.secundario {
 	font-family: 'Magra', sans-serif;
-	margin-top:140px; 
-	margin-left:140px; 
+	margin-top:107px; 
+	margin-left:110px; 
 	position:absolute; 
 	font-weight:normal;
 	font-size:16px; 
 }
 
-#bannerPrincipal .circle a.secundariodos {
-	font-family: 'Magra', sans-serif;
-	margin-top:160px; 
-	margin-left:140px; 
-	position:absolute; 
-	font-weight:normal;
-	font-size:16px; 
-}
 
 #bannerPrincipal a.Med {
 	font-size:24px; 
@@ -618,7 +611,7 @@ a:focus {
 	
 }
 #creditos a{
-	background: url("../img/antorcha.png");
+	background: url("../img/IO.png");
 	display: inline-block;	
 	line-height: 37px;
 	vertical-align: middle;

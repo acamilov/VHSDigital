@@ -46,7 +46,7 @@
         }else if(prePosicion < 157){
             $("#redBall").css("background-position", "7px 0");
         }else if(prePosicion > 786){
-            $("#redBall").css("background-position", "635px 0");
+            $("#redBall").css("background-position", "719px 0");
         }
     });
 
