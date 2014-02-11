@@ -289,7 +289,6 @@ a:visited {
 #ficha p {
 	font-size: 13px;
 	padding-left: 50px;
-	position:absolute;
 	text-align: center;
 }
 
@@ -412,9 +411,8 @@ a:visited {
 #creditos {
 	float: right;
 	position: absolute;
-
 	right: 0px;
-	margin-top: -49px;
+	margin-top: -90px;
 }
 
 #creditos p{
@@ -424,12 +422,12 @@ a:visited {
 	
 }
 #creditos a{
-	background: url("../img/IO.png");
+	background: url("../img/antorchaio.png");
 	display: inline-block;	
-	line-height: 37px;
+	line-height: 80px;
 	vertical-align: middle;
-	height: 37px;
-	width: 121px;
+	height: 80px;
+	width: 128px;
 }
 #fb img{
 	margin-top: -10px;
